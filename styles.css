@@ -1,0 +1,122 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    background: #fdf6f6;
+    margin: 0;
+    padding: 0;
+  }
+  .cv-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  .left-side {
+    background: #f0d7d7;
+    width: 35%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .left-side img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+  }
+  .left-side h2 {
+    margin: 0;
+    text-align: center;
+  }
+  .skills, .interests {
+    width: 100%;
+  }
+  .skills h3, .interests h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .skill-bar {
+    background: #e6bfbf;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .skill-bar span {
+    display: block;
+    height: 100%;
+    background: #b66d6d;
+    border-radius: 5px;
+  }
+  .interests {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .interest {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #b66d6d;
+  }
+
+  .right-side {
+    padding: 30px;
+    width: 65%;
+  }
+  .right-side h1 {
+    margin: 0;
+    font-size: 26px;
+  }
+  .right-side h2 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #b66d6d;
+    font-weight: 400;
+  }
+  .contact {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section h3 {
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  .section ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .section ul li {
+    margin-bottom: 5px;
+  }
+  .job-title {
+    font-weight: bold;
+  }
+  .job-company {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+  }
+
